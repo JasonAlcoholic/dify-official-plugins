@@ -1,20 +1,9 @@
-## customized_openai_api_compatible
+## 概述
 
-**作者：** jasonalcoholic
-**版本：** 0.0.1
-**类型：** model
+此插件提供对 OpenAI 兼容模型的访问,包括 LLM、重排序、文本嵌入、语音转文本（STT）和文本转语音（TTS）模型。开发者可以通过提供模型名称和 API 密钥等配置参数来轻松添加模型。
 
-### 描述
+## 配置
 
-customized openai api with headers and multiple choice
+通过提供核心详细信息（类型、名称、API 密钥、URL）并调整补全、上下文和令牌限制以及流式传输和视觉设置等其他选项来配置 OpenAI-API 兼容模型。完成后保存。
 
-> 发布到 Dify Marketplace 前，请将以下占位内容替换为真实内容，并删除本提示。
-> 注意：主 README.md 必须仅使用英文撰写，中文内容请保留在本文件（README_zh_Hans.md）中。
-
-### 配置
-
-请说明插件的配置方式：所需的凭据或 API Key、获取方式以及前置条件。
-
-### 使用
-
-请说明如何在 Dify 中使用本插件，最好附上示例。
+![](./_assets/openai_api_compatible-01.png)
