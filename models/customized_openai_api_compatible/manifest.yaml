@@ -1,0 +1,43 @@
+version: 0.0.1
+type: plugin
+author: jasonalcoholic
+name: customized_openai_api_compatible
+label:
+  en_US: customized_openai_api_compatible
+  ja_JP: customized_openai_api_compatible
+  zh_Hans: customized_openai_api_compatible
+  pt_BR: customized_openai_api_compatible
+description:
+  en_US: customized openai api with headers and multiple choice
+  ja_JP: customized openai api with headers and multiple choice
+  zh_Hans: customized openai api with headers and multiple choice
+  pt_BR: customized openai api with headers and multiple choice
+icon: icon.svg
+icon_dark: icon-dark.svg
+resource:
+  memory: 268435456
+  permission:
+    model:
+      enabled: true
+      llm: true
+      text_embedding: true
+      rerank: true
+      tts: true
+      speech2text: true
+      moderation: true
+plugins:
+  models:
+    - provider/customized_openai_api_compatible.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: null
+created_at: 2026-07-21T08:37:09.916662986+08:00
+privacy: PRIVACY.md
+verified: false
