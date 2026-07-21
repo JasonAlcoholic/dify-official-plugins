@@ -1,13 +1,14 @@
 version: 0.0.1
 type: plugin
-author: jasonalcoholic
-name: customized_openai_api_compatible
-label:
-  en_US: customized_openai_api_compatible
-  zh_Hans: customized_openai_api_compatible
+author: "jasonalcoholic"
+name: "aabb"
 description:
-  en_US: customized openai api with headers and multiple choice
-  zh_Hans: customized openai api with headers and multiple choice
+  en_US: Customized model providers compatible with OpenAI's API standard, supporting headers and multiple choice options.
+  zh_Hans: 定制化的兼容 OpenAI API 的模型供应商，支持自定义请求头和多选项配置。
+label:
+  en_US: "Customized OpenAI-API-compatible"
+  zh_Hans: "定制化 OpenAI-API 兼容"
+created_at: "2026-07-21T08:37:09.916662986+08:00"
 icon: icon.svg
 resource:
   memory: 1048576
@@ -19,7 +20,7 @@ resource:
       llm: true
 plugins:
   models:
-    - provider/customized_openai_api_compatible.yaml
+    - "provider/customized_openai_api_compatible.yaml"
 meta:
   version: 0.0.1
   arch:
@@ -29,4 +30,3 @@ meta:
     language: "python"
     version: "3.12"
     entrypoint: "main"
-created_at: 2026-07-21T08:37:09.916662986+08:00

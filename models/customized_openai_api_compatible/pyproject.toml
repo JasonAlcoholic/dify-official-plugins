@@ -1,7 +1,7 @@
 [project]
-name = "customized_openai_api_compatible"
-version = "0.0.1"
-description = "customized openai api with headers and multiple choice"
+name = "customized-openai-api-compatible-GnRzR6cEy"
+version = "0.1.0"
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 
